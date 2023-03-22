@@ -1,0 +1,8 @@
+THISDIR = $(shell pwd)
+all:
+
+clean:
+
+romfs:
+	$(ROMFSINST) -p +x $(THISDIR)/cloudflare_ddns.sh /usr/bin/cloudflare_ddns.sh
+	$(ROMFSINST) /etc_ro/cloudflare-ddns_script.sh
