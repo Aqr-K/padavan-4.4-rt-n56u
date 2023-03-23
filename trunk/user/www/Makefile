@@ -208,6 +208,9 @@ endif
 ifneq ($(CONFIG_FIRMWARE_INCLUDE_ALIDDNS),y)
 	rm -f $(INSTALLDIR)/www/Advanced_aliddns.asp
 endif
+ifneq ($(CONFIG_FIRMWARE_INCLUDE_CLOUDFLARE-DDNS),y)
+	rm -f $(INSTALLDIR)/www/Advanced_cloudflare-ddns.asp
+endif
 ifneq ($(CONFIG_FIRMWARE_INCLUDE_ZEROTIER),y)
 	rm -f $(INSTALLDIR)/www/Advanced_zerotier.asp
 endif
