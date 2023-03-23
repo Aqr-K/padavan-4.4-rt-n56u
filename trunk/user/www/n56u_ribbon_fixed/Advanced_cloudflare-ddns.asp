@@ -60,7 +60,7 @@ function applyRule(){
 		showLoading();
 		
 		document.form.action_mode.value = " Apply ";
-		document.form.current_page.value = "/Advanced_cloudflareddns.asp";
+		document.form.current_page.value = "/Advanced_cloudflare-ddns.asp";
 		document.form.next_page.value = "";
 		
 		document.form.submit();
@@ -142,7 +142,7 @@ function change_cloudflareddns_enable_bridge(mflag){
 							<div>
                             <ul class="nav nav-tabs" style="margin-bottom: 10px;">
 								<li class="active">
-                                    <a href="Advanced_cloudflareddns.asp"><#menu5_23_1#></a>
+                                    <a href="Advanced_cloudflare-ddns.asp"><#menu5_23_1#></a>
                                 </li>
 								<li id="zelink" style="display:none">
                                     <a href="Advanced_zerotier.asp"><#menu5_32_1#></a>
